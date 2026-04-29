@@ -1,18 +1,18 @@
 /* =========================================
-   MODERN & FUN THEME VARIABLES
+   THEME VARIABLES
    ========================================= */
    :root {
     /* Color Palette */
-    --bg-primary: #0f172a;       /* Deep Navy */
-    --bg-secondary: #1e293b;     /* Lighter Navy */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
     --bg-glass: rgba(30, 41, 59, 0.7);
     
-    --accent-primary: #8b5cf6;   /* Vibrant Purple */
-    --accent-secondary: #ec4899; /* Hot Pink */
+    --accent-primary: #8b5cf6;
+    --accent-secondary: #ec4899;
     --accent-gradient: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
     
-    --text-main: #f8fafc;        /* Off-white */
-    --text-muted: #94a3b8;       /* Slate gray */
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
     
     --border-light: rgba(255, 255, 255, 0.1);
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -189,7 +189,7 @@
       background: rgba(255, 255, 255, 0.1);
       border-radius: var(--radius-full);
       color: var(--text-main);
-      cursor: pointer; /* Crucial: makes it clickable */
+      cursor: pointer;
       font-weight: 600;
       transition: all var(--transition-smooth);
       border: 1px solid var(--border-light);
